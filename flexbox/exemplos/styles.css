@@ -1,0 +1,36 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  /* flex-wrap: wrap; */ /*mantem o tamanho e quebra linha*/
+  /* flex-direction: row;  */ /*direção dos itens filhos do ep vao sempre seguir na mesma linha, padrão row */
+  /* align-items: center; */ /*sempre que utilizar flex-direction: row, align items and justifycontent vao alinhar verticalmente/horizontalmente */
+  /* justify-content: center; */
+  /* align-content: center; */
+}
+
+.box {
+  width: 150px;
+  height: 60px;
+  margin: 5px;
+}
+
+.red {
+  order: 1;
+  background: #f00;
+}
+
+.green {
+  order: 2;
+  background: #0f0;
+}
+
+.blue {
+  order: 0;
+  background: #00f;
+}
